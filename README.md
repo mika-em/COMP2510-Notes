@@ -4,4 +4,5 @@
 - Structure
 - CPreprocessor
 - Memory Allocation
+- Generics
 - Linked List
