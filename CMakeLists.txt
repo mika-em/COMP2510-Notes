@@ -8,4 +8,5 @@ add_executable(FinalReview
         CPreprocessor.c
         CFinalReview.h
         Generics.c
-        MemoryAllocation.c)
+        MemoryAllocation.c
+        LinkedList.c)

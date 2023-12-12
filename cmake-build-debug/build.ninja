@@ -73,6 +73,12 @@ build CMakeFiles/FinalReview.dir/MemoryAllocation.c.o: C_COMPILER__FinalReview_u
   OBJECT_DIR = CMakeFiles/FinalReview.dir
   OBJECT_FILE_DIR = CMakeFiles/FinalReview.dir
 
+build CMakeFiles/FinalReview.dir/LinkedList.c.o: C_COMPILER__FinalReview_unscanned_Debug /Users/mikaem/Desktop/C/FinalReview/LinkedList.c || cmake_object_order_depends_target_FinalReview
+  DEP_FILE = CMakeFiles/FinalReview.dir/LinkedList.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FinalReview.dir
+  OBJECT_FILE_DIR = CMakeFiles/FinalReview.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FinalReview
@@ -81,7 +87,7 @@ build CMakeFiles/FinalReview.dir/MemoryAllocation.c.o: C_COMPILER__FinalReview_u
 #############################################
 # Link the executable FinalReview
 
-build FinalReview: C_EXECUTABLE_LINKER__FinalReview_Debug CMakeFiles/FinalReview.dir/Structure.c.o CMakeFiles/FinalReview.dir/CPreprocessor.c.o CMakeFiles/FinalReview.dir/Generics.c.o CMakeFiles/FinalReview.dir/MemoryAllocation.c.o
+build FinalReview: C_EXECUTABLE_LINKER__FinalReview_Debug CMakeFiles/FinalReview.dir/Structure.c.o CMakeFiles/FinalReview.dir/CPreprocessor.c.o CMakeFiles/FinalReview.dir/Generics.c.o CMakeFiles/FinalReview.dir/MemoryAllocation.c.o CMakeFiles/FinalReview.dir/LinkedList.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/FinalReview.dir
   POST_BUILD = :
