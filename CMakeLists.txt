@@ -4,4 +4,8 @@ project(FinalReview C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(FinalReview
-        Structure.c)
+        Structure.c
+        CPreprocessor.c
+        CFinalReview.h
+        Generics.c
+        MemoryAllocation.c)
